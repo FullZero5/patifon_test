@@ -1,0 +1,234 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Иван"
+    },
+    {
+      "id": 2,
+      "name": "Петр"
+    },
+    {
+      "id": 3,
+      "name": "Сергей"
+    }
+  ],
+  "programs": [
+    {
+      "id": 1,
+      "name": "Word"
+    },
+    {
+      "id": 2,
+      "name": "Paint"
+    },
+    {
+      "id": 3,
+      "name": "Notepad"
+    }
+  ],
+  "task": [
+    {
+      "id": 1,
+      "name": "Задача-1",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": "1000",
+      "program": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 2,
+      "name": "Задача-2",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": "2000",
+      "program": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 3,
+      "name": "Задача-3",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": "3000",
+      "program": 4,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 4,
+      "name": "Задача-4",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": "4000",
+      "program": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 5,
+      "name": "Задача-5",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": "5000",
+      "program": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 6,
+      "name": "Test-6",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": 100000,
+      "program": 4,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 7,
+      "name": "Test-7",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": 900000,
+      "program": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 8,
+      "name": "Test-8",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": 600000,
+      "program": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 9,
+      "name": "Test-9",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": 100000,
+      "program": 4,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 10,
+      "name": "Test-10",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": 900000,
+      "program": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 11,
+      "name": "Test-11",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": 600000,
+      "program": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 12,
+      "name": "Test-12",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": 100000,
+      "program": 4,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 13,
+      "name": "Test-13",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": 900000,
+      "program": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 14,
+      "name": "Test-14",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": 600000,
+      "program": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 15,
+      "name": "Test-15",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": 100000,
+      "program": 4,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 16,
+      "name": "Test-16",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": 900000,
+      "program": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 17,
+      "name": "Test-17",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": 600000,
+      "program": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 18,
+      "name": "Test-18",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": 100000,
+      "program": 4,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    }
+  ],
+  "issue": [
+    {
+      "id": 1,
+      "name": "Проблема-1",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": "100",
+      "user": 1,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    },
+    {
+      "id": 2,
+      "name": "Проблема-2",
+      "solution": "foo bar",
+      "longitude": 34.232,
+      "latitude": 59.1231,
+      "price": "100",
+      "user": 2,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
+    }
+  ]
+}

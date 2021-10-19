@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "mock server for test",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "json-server --watch data/db.json --port 8015"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Fullzero",
+  "license": "MIT",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
