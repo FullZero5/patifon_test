@@ -75,6 +75,8 @@ export default {
 
     .form-row {
       display: flex;
+      width: 100%;
+      text-align: left;
       flex-direction: column;
       label {
         text-align: left;
