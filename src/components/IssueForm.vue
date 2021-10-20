@@ -10,13 +10,13 @@
     <div class="form-row">
       <label>Название</label>
       <div class="field">
-        <input type="text" class="input input-bordered" v-model="issue.name"/>
+        <input type="text" class="input input-bordered w-full" v-model="issue.name"/>
       </div>
     </div>
     <div class="form-row" v-if="getType !=='issue'">
       <label>Описание</label>
       <div class="field">
-        <textarea class="textarea h-24 textarea-bordered" v-model="issue.description"/>
+        <textarea class="textarea h-24 textarea-bordered w-full" v-model="issue.description"/>
       </div>
     </div>
     <div class="form-row" v-if="getType !=='issue'">
