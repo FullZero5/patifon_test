@@ -29,11 +29,7 @@
       <label>{{ getType !=='issue'? 'Программа' : 'Сотрудник' }}</label>
       <div class="field">
         <select class="select select-bordered w-full max-w-xs">
-          <option value="1">Программа 1</option>
-          <option value="2">Программа 2</option>
-          <option value="3">Программа 3</option>
-          <option value="4">Программа 4</option>
-          <option value="5">Программа 5</option>
+          <option   v-for="i in (getType !=='issue') ? getUsers : getPrograms" :value="i.id" :key="i.id">{{i.name}}</option>
         </select>
       </div>
     </div>
@@ -55,12 +51,15 @@ export default {
   },
   computed: {
     ...mapGetters([
-      'getType'
+      'getType',
+      'getUsers',
+      'getPrograms'
     ])
   },
   methods: {
     ...mapActions([
-      'saveDataItem'
+      'saveDataItem',
+      ''
     ]),
     onClickSubmit() {
       this.saveDataItem()

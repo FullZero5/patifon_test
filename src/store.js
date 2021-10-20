@@ -31,6 +31,9 @@ export default new Vuex.Store({
     FETCH_USERS(state, users) {
       state.users = users
     },
+    FETCH_PROGRAM(state, programs) {
+      state.programs = programs
+    },
     FETCH_TASKS(state, tasks) {
       state.tasks = tasks
     },
@@ -54,6 +57,12 @@ export default new Vuex.Store({
     getUsers: state => {
       return state.users
     },
+    getUserName: state => id => {
+      return state.users.find(item => item.id === id).name
+    },
+    getPrograms: state => {
+      return state.programs
+    },
     getTasks: state => {
       return state.tasks
     },
@@ -67,6 +76,9 @@ export default new Vuex.Store({
     },
     async loadUsers({ commit }) {
       commit('FETCH_USERS', await apiService.getUsers());
+    },
+    async loadPrograms({ commit }) {
+      commit('FETCH_PROGRAM', await apiService.getPrograms());
     },
     async loadTasks({ commit }) {
       commit('FETCH_TASKS', await apiService.getTask());

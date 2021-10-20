@@ -5,19 +5,13 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex';
-
 export default {
   name: 'MainApp',
   mounted: function () {
     this.$store.dispatch('loadTasks')
     this.$store.dispatch('loadIssues')
-  },
-  methods: {
-    ...mapActions({
-      loadIssues: 'loadIssues',
-      loadTasks: 'loadTasks'
-    })
+    this.$store.dispatch('loadPrograms')
+    this.$store.dispatch('loadUsers')
   }
 }
 </script>
