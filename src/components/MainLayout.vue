@@ -8,7 +8,9 @@
           <button :class="{ 'tab tab-lifted': true,'tab-active': !isActive }" @click="toggleTab">Проблемы</button>
         </div>
       </div>
-      <items-list :items="isActive? getTasks : getIssues"></items-list>
+      <div class="overscroll-auto overflow-auto h-72">
+        <items-list :items="isActive? getTasks : getIssues"></items-list>
+      </div>
     </div>
     <div style="flex-grow:2" class="flex-column right-side">
       <h3>Формы</h3>

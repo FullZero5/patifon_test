@@ -74,7 +74,7 @@ export default new Vuex.Store({
     async loadIssues({ commit }) {
       commit('FETCH_ISSUES', await apiService.getIssue());
     },
-    async saveDataItem({ commit, dispatch, getters }) {
+    async saveDataItem({ dispatch, getters }) {
       await apiService.saveItem(getters.getType, getters.getSelectItem.id, getters.getSelectItem)
       getters.getType === 'issue' ? dispatch('loadIssues') : dispatch('loadTasks')
     }

@@ -5,11 +5,15 @@ const getData = (url, option) => HTTP(`${getUrl()}${url}`, option);
 
 const ApiService = () => {
   return {
+    async getPrograms() {
+      const programs = await getData(`/programs`);
+      return programs
+    },
     async getUsers() {
       const user = await getData(`/user`);
       return user
     },
-    async getTask(page = 1, limit = 5) {
+    async getTask(page = 1, limit = 50) {
       const task = await getData(`/task?_page=${page}&_limit=${limit}`);
       return task
     },
