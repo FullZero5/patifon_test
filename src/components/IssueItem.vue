@@ -1,5 +1,5 @@
 <template>
-  <div class="issue-item" @click="selectItem(item.id)">
+  <div class="issue-item cursor-pointer bg-white hover:bg-gray-50" @click="selectItem(item.id)">
     <span>{{ item.id }}</span>
     <span>{{ item.name }}</span>
     <span>{{ item.price }}</span>
