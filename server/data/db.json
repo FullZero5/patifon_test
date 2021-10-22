@@ -35,7 +35,7 @@
       "longitude": 34.232,
       "latitude": 59.1231,
       "price": "1000",
-      "program": 1,
+      "program": 2,
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
     },
     {
@@ -45,7 +45,7 @@
       "longitude": 34.232,
       "latitude": 59.1231,
       "price": "2000",
-      "program": 1,
+      "program": 2,
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
     },
     {
@@ -55,7 +55,7 @@
       "longitude": 34.232,
       "latitude": 59.1231,
       "price": "3000",
-      "program": 4,
+      "program": 2,
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
     },
     {
@@ -85,7 +85,7 @@
       "longitude": 34.232,
       "latitude": 59.1231,
       "price": 100000,
-      "program": 4,
+      "program": 3,
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
     },
     {
@@ -175,7 +175,7 @@
       "longitude": 34.232,
       "latitude": 59.1231,
       "price": 100000,
-      "program": 4,
+      "program": 2,
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
     },
     {
@@ -205,7 +205,7 @@
       "longitude": 34.232,
       "latitude": 59.1231,
       "price": 100000,
-      "program": 4,
+      "program": 2,
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, saepe."
     }
   ],

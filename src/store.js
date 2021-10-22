@@ -27,6 +27,7 @@ export default new Vuex.Store({
     },
     TOGGLE_TAB(state, logic) {
       state.type = logic ? 'task' : 'issue'
+      state.selectItem = {}
     },
     FETCH_USERS(state, users) {
       state.users = users
@@ -58,10 +59,13 @@ export default new Vuex.Store({
       return state.users
     },
     getUserName: state => id => {
-      return state.users.find(item => item.id === id).name
+      return state.users.find(item => item.id === id).name || '-'
     },
     getPrograms: state => {
       return state.programs
+    },
+    getProgramsName: state => id => {
+      return state.programs.find(item => item.id === id).name || '-'
     },
     getTasks: state => {
       return state.tasks
