@@ -28,8 +28,9 @@
     <div class="form-row">
       <label>{{ getType !=='issue'? 'Программа' : 'Сотрудник' }}</label>
       <div class="field">
-        <select class="select select-bordered w-full max-w-xs">
-          <option   v-for="i in (getType !=='issue') ? getUsers : getPrograms" :value="i.id" :key="i.id">{{i.name}}</option>
+        //TODO пересмтреть
+        <select class="select select-bordered w-full max-w-xs" v-model="(getType =='issue') ? issue.user : issue.program">
+          <option   v-for="i in (getType =='issue') ? getUsers : getPrograms" :value="i.id" :key="i.id">{{i.name}}</option>
         </select>
       </div>
     </div>
